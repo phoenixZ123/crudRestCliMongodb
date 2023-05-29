@@ -1,0 +1,16 @@
+GET http://localhost:3003/todo
+
+###
+
+POST http://localhost:3003/todo/new
+Content-Type:application/json
+
+{
+    "text":"Get The Ice Coffee"
+}
+
+###
+DELETE http://localhost:3003/todo/delete/647321f539686773dba9959d
+
+###
+PUT http://localhost:3003/todo/complete/647321f539686773dba9959d
